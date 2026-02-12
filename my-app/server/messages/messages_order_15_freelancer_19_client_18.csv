@@ -1,0 +1,3 @@
+sender_id,receiver_id,message
+19,18,"Hello what model to use ??"
+18,19,"use the SARIMA or ARIMAX Model"
