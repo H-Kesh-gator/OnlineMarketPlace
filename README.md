@@ -7,7 +7,6 @@ Full-stack freelance marketplace with React/Vite, Express/MySQL, and an **experi
 - Existing marketplace: client/freelancer flows, requests, orders, messaging and reviews.
 - Semantic job matching using local sentence-transformer embeddings (`POST /match`).
 - AI proposal drafting grounded in freelancer and job information (`POST /proposal`).
-- Resume PDF/TXT extraction and keyword-based insights (`POST /resume/upload`, `POST /analyze`).
 - Retrieval-augmented project-document Q&A with source excerpts (`POST /ask`).
 - React demo workbench at `/ai-workbench`.
 
@@ -49,7 +48,6 @@ CI configuration: `.github/workflows/ai-service-ci.yml`. Manual checks and integ
 
 ## Status and limitations
 
-This is a **prototype**, not a production deployment. The AI workbench currently uses supplied demo job JSON rather than authenticated marketplace job records. The AI endpoints do not yet enforce user authentication, document-level authorization, or rate limits; do not deploy them publicly. Use only non-sensitive test resumes and contracts. Generated proposals require human review. Full integration tests and deployment validation are pending.
 
 ## Roadmap
 
