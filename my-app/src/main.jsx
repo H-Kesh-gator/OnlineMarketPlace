@@ -20,6 +20,7 @@ import OrderProgress from "./pages/OrderProgress";
 import MessagesPage from "./pages/messages.jsx";
 import ReviewForm from "./pages/ReviewForm.jsx";
 import FreelancerFinance from "./pages/FreelancerFinance.jsx";
+import AIWorkbench from "./pages/AIWorkbench.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -39,6 +40,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/search33" element={<SearchClient33 />} />
         {/* Freelancer route */}
         <Route path="/freelancer" element={<FreelancerProfile />} />
+        <Route path="/ai-workbench" element={<AIWorkbench />} />
   <Route path="/freelancer-claimed" element={<FreelancerClaimed />} />
         <Route path="/orders" element={<Orders />} />
         {/* 404 fallback */}
